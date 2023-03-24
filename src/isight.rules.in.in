@@ -1,0 +1,1 @@
+ACTION=="add", ATTRS{idVendor}=="05ac", ATTRS{idProduct}=="8300", RUN+="@udevdir@/ift-load --firmware /lib/firmware/isight.fw"

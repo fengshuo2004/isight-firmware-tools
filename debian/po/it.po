@@ -1,0 +1,84 @@
+# ITALIAN TRANSLATION OF ISIGHT-FIRMWARE-TOOL'S.PO-DEBCONF FILE
+# Copyright (C) 2008 THE ISIGHT-FIRMWARE-TOOL'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the isight-firmware-tool package.
+#
+# Vincenzo Campanella <vinz65@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: isight-firmware-tools 1.2.6\n"
+"Report-Msgid-Bugs-To: isight-firmware-tools@packages.debian.org\n"
+"POT-Creation-Date: 2008-11-14 18:34+0100\n"
+"PO-Revision-Date: 2008-11-15 06:43+0100\n"
+"Last-Translator: Vincenzo Campanella <vinz65@gmail.com>\n"
+"Language-Team: Italian <tp@lists.linux.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Extract firmware from Apple driver?"
+msgstr "Estrarre il firmware dal driver Apple?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"If you choose this option, please make sure that you have access to the "
+"AppleUSBVideoSupport driver file."
+msgstr ""
+"Se si sceglie questa opzione, assicurarsi di avere accesso al driver "
+"AppleUSBVideoSupport."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Apple driver file location:"
+msgstr "Posizione del driver Apple:"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid "Apple driver file not found"
+msgstr "Driver Apple non trovato."
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid ""
+"The file you specified does not exist. The firmware extraction has been "
+"aborted."
+msgstr ""
+"Il file specificato non esiste. L'estrazione del firmware è stata "
+"interrotta."
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "Firmware extracted successfully"
+msgstr "Il firmware è stato estratto con successo."
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "The iSight firmware has been extracted successfully."
+msgstr "Il firmware iSight è stato estratto con successo."
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid "Failed to extract firmware"
+msgstr "Estrazione del firmware fallita."
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid ""
+"The firmware extraction failed. Please check that the file you specified is "
+"a valid firmware file."
+msgstr ""
+"L'estrazione del firmware è fallita. Assicurarsi che il file specificato "
+"sia un file di firmware valido."
+

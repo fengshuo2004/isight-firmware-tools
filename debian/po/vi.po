@@ -1,0 +1,81 @@
+# Vietnamese translation for iSight Firmware Tools.
+# Copyright © 2008 Free Software Foundation, Inc.
+# Clytie Siddall <clytie@riverland.net.au>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: isight-firmware-tools 1.2-6\n"
+"Report-Msgid-Bugs-To: isight-firmware-tools@packages.debian.org\n"
+"POT-Creation-Date: 2008-11-14 18:34+0100\n"
+"PO-Revision-Date: 2008-12-25 16:58+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.7b3\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Extract firmware from Apple driver?"
+msgstr "Rút phần vững khỏi trình điều khiển Apple không?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "If you choose this option, please make sure that you have access to the AppleUSBVideoSupport driver file."
+msgstr "Bật tùy chọn này thì cũng cần thiết có quyền truy cập đến tập tin điều khiển thiết bị ảnh động USB AppleUSBVideoSupport."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Apple driver file location:"
+msgstr "Vị trí trình điều khiển Apple:"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+#| msgid "Apple driver file location:"
+msgid "Apple driver file not found"
+msgstr "Không tìm thấy tập tin điều khiển thiết bị Apple"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid "The file you specified does not exist. The firmware extraction has been aborted."
+msgstr "Bạn đã xác định một tập tin không tồn tại. Vì thế tiến trình giải nén phần vững bị hủy bỏ."
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "Firmware extracted successfully"
+msgstr "Phần vững đã được giải nén."
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "The iSight firmware has been extracted successfully."
+msgstr "Phần vững iSight đã được giải nén."
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid "Failed to extract firmware"
+msgstr "Lỗi giải nén phần vững"
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid "The firmware extraction failed. Please check that the file you specified is a valid firmware file."
+msgstr "Lỗi giải nén phần vững. Hãy kiểm tra tập tin xác định là một tập tin phần vững hợp lệ."
+
+#~ msgid ""
+#~ "Ensure you have access to the AppleUSBVideoSupport driver file. If not "
+#~ "disable firmware extraction, you can retry it later."
+#~ msgstr ""
+#~ "Hãy kiểm tra xem bạn có truy cập đến tập tin trình điều khiển "
+#~ "AppleUSBVideoSupport. Nếu không, tắt tiến trình rút phần vững: bạn có thể "
+#~ "thử lại về sau."
+

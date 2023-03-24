@@ -1,0 +1,85 @@
+# translation of isight-firmware-tools_1.2-9_gl.po to galician
+# Galician translation of isight-firmware-tools's debconf templates
+# This file is distributed under the same license as the isight-firmware-tools package.
+#
+# Jacobo Tarrio <jtarrio@debian.org>, 2008.
+# Marce Villarino <mvillarino@users.sourceforge.net>, 2009.
+# mvillarino <mvillarino@users.sourceforge.net>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: isight-firmware-tools_1.2-9_gl\n"
+"Report-Msgid-Bugs-To: isight-firmware-tools@packages.debian.org\n"
+"POT-Creation-Date: 2008-11-24 13:59+0900\n"
+"PO-Revision-Date: 2009-01-18 22:31+0100\n"
+"Last-Translator: Marce Villarino <mvillarino@users.sourceforge.net>\n"
+"Language-Team: galician <proxecto@trasno.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Extract firmware from Apple driver?"
+msgstr "Desexa extraer o firmware do controlador de Apple?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"If you choose this option, please make sure that you have access to the "
+"AppleUSBVideoSupport driver file."
+msgstr ""
+"Se escolle esta opción, verifique que ten acceso ao ficheiro do controlador "
+"AppleUSBVideoSupport."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Apple driver file location:"
+msgstr "Localización do ficheiro do controlador de Apple:"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid "Apple driver file not found"
+msgstr "Non se atopou o ficheiro do controlador de Apple"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid ""
+"The file you specified does not exist. The firmware extraction has been "
+"aborted."
+msgstr "O ficheiro que indicou non existe. Abortouse a extracción do firmware."
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "Firmware extracted successfully"
+msgstr "O firmware estraiuse satisfactoriamente"
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "The iSight firmware has been extracted successfully."
+msgstr "O firmware do iSight estraiuse satisfactoriamente."
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid "Failed to extract firmware"
+msgstr "Non foi posíbel extraer o firmware"
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid ""
+"The firmware extraction failed. Please check that the file you specified is "
+"a valid firmware file."
+msgstr ""
+"Fallou a extracción do firmware. Verifique que o ficheiro que indicou é un "
+"ficheiro de firmware válido."
+

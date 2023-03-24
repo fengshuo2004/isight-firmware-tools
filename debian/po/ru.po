@@ -1,0 +1,85 @@
+# translation of ru.po to Russian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Yuri Kozlov <kozlov.y@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: isight-firmware-tools 1.2-6\n"
+"Report-Msgid-Bugs-To: isight-firmware-tools@packages.debian.org\n"
+"POT-Creation-Date: 2008-11-14 18:34+0100\n"
+"PO-Revision-Date: 2008-11-16 21:14+0300\n"
+"Last-Translator: Yuri Kozlov <kozlov.y@gmail.com>\n"
+"Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Extract firmware from Apple driver?"
+msgstr "Извлечь микропрограмму из драйвера Apple?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"If you choose this option, please make sure that you have access to the "
+"AppleUSBVideoSupport driver file."
+msgstr ""
+"Перед тем, как ответить утвердительно, проверьте, что у вас есть "
+"файл драйвера AppleUSBVideoSupport."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Apple driver file location:"
+msgstr "Местонахождение файла драйвера Apple:"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+#| msgid "Apple driver file location:"
+msgid "Apple driver file not found"
+msgstr "Файл драйвера Apple не найден"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid ""
+"The file you specified does not exist. The firmware extraction has been "
+"aborted."
+msgstr "Указанный вами файл не существует. Извлечение микропрограммы прервано."
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "Firmware extracted successfully"
+msgstr "Микропрограмма извлечена успешно"
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "The iSight firmware has been extracted successfully."
+msgstr "Микропрограмма iSight извлечена успешно."
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid "Failed to extract firmware"
+msgstr "Не удалось извлечь микропрограмму"
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid ""
+"The firmware extraction failed. Please check that the file you specified is "
+"a valid firmware file."
+msgstr ""
+"Не удалось извлечь микропрограмму. Проверьте, что указанный файл действительно "
+"является файлом с микропрограммой."
+
+

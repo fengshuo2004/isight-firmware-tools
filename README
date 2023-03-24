@@ -1,0 +1,32 @@
+This project provide tools to manipulate firmware for Built-in iSight
+found on Apple machine since iMac G5 iSight (November 2005).
+
+Those tools are based on the work from Ronald S. Bultje and are
+licensed under the term of the GPLv2 or later. There are currently
+(2010) maintained by Étienne Bersac.
+
+See https://launchpad.net/isight-firmware-tools/ for bugs, code and
+more informations.
+
+ift-extract :
+—————————————
+
+	ift-extract extracts isight.fw from any AppleUSBVideoSupport
+	driver from Darwin. This driver is located in
+	/System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/AppleUSBVideoSupport.kext/Contents/MacOS/AppleUSBVideoSupport
+	on your Mac OS X root partition.
+
+ift-load :
+——————————
+
+	ift-load load a firmware extracted by ift-extract right into
+	the iSight. This tool is meant to be called by udev. (see
+	isight.rules udev rules file provided).
+
+ift-export :
+——————————
+
+	Exports a firmware extracted by ift-extract as Intel HEX
+	format for load with fxload. Note that the RAM size of the
+	Built-in iSight seems larger than 8KB, therefore fxload refuse
+	to load the end of the firmware into the chip.

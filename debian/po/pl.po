@@ -1,0 +1,84 @@
+# debconf templates for isight-firmware-tools package
+# Polish translation
+#
+# Copyrights:
+# Łukasz Paździora, 2008
+#
+# This file is distributed under the same license as the isight-firmware-tools package.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: isight-firmware-tools 1.2-6\n"
+"Report-Msgid-Bugs-To: isight-firmware-tools@packages.debian.org\n"
+"POT-Creation-Date: 2008-11-14 18:34+0100\n"
+"PO-Revision-Date: 2008-11-16 11:10+0200\n"
+"Last-Translator: Łukasz Paździora <lukpaz@gmail.com>\n"
+"Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Extract firmware from Apple driver?"
+msgstr "Wyodrębnić firmware ze sterownika Apple?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"If you choose this option, please make sure that you have access to the "
+"AppleUSBVideoSupport driver file."
+msgstr ""
+"Jeśli wybierzesz tę opcję, upewnij się, że masz dostęp do pliku sterownika "
+"AppleUSBVideoSupport."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Apple driver file location:"
+msgstr "Lokalizacja pliku sterownika Apple:"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid "Apple driver file not found"
+msgstr "Plik sterownika Apple nie znaleziony"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid ""
+"The file you specified does not exist. The firmware extraction has been "
+"aborted."
+msgstr ""
+"Wskazany plik nie istnieje. Wyodrębnianie firmware zostało anulowane."
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "Firmware extracted successfully"
+msgstr "Wyodrębnianie firmware zakończone powodzeniem"
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "The iSight firmware has been extracted successfully."
+msgstr "Firmware iSight został pomyślnie wyodrębniony."
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid "Failed to extract firmware"
+msgstr "Nie udało się wyodrębnić firmware"
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid ""
+"The firmware extraction failed. Please check that the file you specified is "
+"a valid firmware file."
+msgstr ""
+"Wyodrębnianie firmware zakończone niepowodzeniem. Proszę sprawdzić czy plik, "
+"który został wskazany jest poprawnym plikiem firmware."

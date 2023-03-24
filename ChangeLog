@@ -1,0 +1,126 @@
+2008-12-25  Étienne BERSAC  <bersace03@laposte.net>
+
+	* NEWS:
+	* configure.ac: Release 1.4.1
+
+2008-12-25  Étienne Bersac  <bersace03@gmail.com>
+
+	* src/extract.c: Added Mac OS X.6 on MacBook Unibody.
+
+2008-12-25  Étienne BERSAC  <bersace03@laposte.net>
+
+	* src/extract.c: The driver file is likely to be the most current
+	version of Mac OS X file. Thus order sums in reverse order of
+	release in order to avoid looping all sums before finding one.
+
+2008-12-25  Philipp Hug <ubuntu@hug.cx>
+
+	* src/extract.c: Added Mac OS X.5.5 and Mac OS X.6 sums.
+
+2008-11-04  Étienne BERSAC  <bersace03@laposte.net>
+
+	* configure.ac: Check glib-2.0 >= 2.13.4
+
+2008-11-04  Étienne BERSAC  <bersace03@laposte.net>
+
+	* src/load.c (find_usb_product): Added vendor_id/product_id USB
+	device finder.
+	* src/load.h:
+	* src/udev.c (main): Search iSight using vendor_id/product_id
+	rather than env variables.
+
+	* configure.ac: Prefer udev rather than HAL loader.
+
+	* src/extract.c: Added Mac OS X.5.5 SHA1 sums.
+
+2008-03-24  Étienne Bersac  <bersace03@laposte.net>
+
+	* configure.ac, NEWS: release 1.2
+
+	* Makefile.am: Build udev rule on distcheck
+
+	* Makefile.am, configure.ac: Add --enable-udev and --disable-hal
+	switches.
+
+	* isight.rules.in, src/isight.rules.in: Move isight.rules in src/
+
+	* src/load.c, src/load.h, src/udev.c: Move load.c main() in
+	seperate file.
+
+	* src/Makefile.am, src/callout.c (main), src/isight-firmware.fdi:
+	Implement HAL callout.
+
+	* src/extract.c (offsets): Added Mac OS X.5.2 driver offset. Fix
+	bug #1203670.
+
+=== 1.0.2 ===
+
+2008-02-01  Étienne Bersac  <bersace03@laposte.net>
+
+	* src/extract.c (offsets): Added Mac OS X.5.1 early 2008 driver
+	offset. Fix bug #187990.
+
+=== 1.0.1 ===
+
+2008-01-11  Étienne Bersac  <bersace03@laposte.net>
+
+	* src/extract.c (offsets): Added Mac OS X.5.1 late 2007 driver
+	offset. Fix bug #179583.
+
+=== 1.0 ===
+
+2007-12-27  Étienne Bersac  <bersace03@laposte.net>
+
+	* src/extract.c (offsets): Added Mac OS X.5.1 offset. Thanks to
+	Jurgen Kramer !
+
+	* src/load.c (main): Use DEVICE env var as fallback.
+
+=== 0.5 ===
+
+2007-12-09  Étienne Bersac  <bersace@gmail.com>
+
+	* help/ift-export.texi: Added ift-export texinfo and man page.
+
+	* help/ift-extract.texi: Added ift-extract texinfo and man page.
+
+	* src/export.c: Implemented HEX export.
+
+	* src/load.c: Use syslog facility
+
+	* load.c, extract.c: Move to src/
+
+=== 0.4 ===
+
+2007-12-07  Étienne Bersac  <bersace@gmail.com>
+
+	* Makefile.am, isight.rules.in: install ift-load in ${libdir}/udev
+	rather that ${sbindir}.
+
+	* load.c: drop device probing and use udev env var or cmdline
+	option to get usb bus id and device id. (e.g. 001:006). REfactor
+	the code.
+
+	* extract.c, load.c: Added i18n. Added GOption parsing.
+
+=== 0.3 ===
+
+2007-12-07  Étienne Bersac  <bersace@gmail.com>
+	* Makefile.am: install ift-load in ${sbindir}.
+
+	* isight.rules.in: Added a udev rules
+
+	* extract.c (patches): Implemented firmware patches.
+
+	* configure.ac: Fix a typo
+
+=== 0.2 ===
+
+2007-12-06  Étienne Bersac  <bersace@gmail.com>
+
+	* load.c: Copy extract.c and drop all code relative to firmware
+	extraction from Mac OS X driver.
+
+	* extract.c: drop all loading code. Splitted the code into
+	functions. Output sha1 sum string in order to simplify addition of
+	future drivers.

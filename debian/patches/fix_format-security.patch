@@ -1,0 +1,51 @@
+Description: Fix FTBFS by no format arguments
+-----
+ extract.c: In function ‘main’:
+ extract.c:366:10: error: format not a string literal and no format arguments [-Werror=format-security]
+           FALSE, NULL));
+-----
+Author: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Forwarded: https://bugs.launchpad.net/isight-firmware-tools/+bug/868117
+Last-Update: 2013-07-26
+
+diff --git a/src/extract.c b/src/extract.c
+index dd7b12f..ceba59d 100644
+--- a/src/extract.c
++++ b/src/extract.c
+@@ -362,8 +362,8 @@ int main (int argc, char *argv[])
+ 	if (!g_option_context_parse(context, &argc, &argv, &error)) {
+ 		fprintf(stderr, _("Error: %s\n"),
+ 			error->message); /* howto translate? */
+-		fprintf(stderr, g_option_context_get_help(context,
+-							  FALSE, NULL));
++		fprintf(stderr, "%s",
++			g_option_context_get_help(context, FALSE, NULL));
+ 		return 1;
+ 	}
+ 
+diff --git a/src/export.c b/src/export.c
+index d7a51f6..f56f3ea 100644
+--- a/src/export.c
++++ b/src/export.c
+@@ -202,7 +202,7 @@ int main (int argc, char *argv[])
+ 	if (!g_option_context_parse(context, &argc, &argv, &error)) {
+ 		fprintf(stderr, _("Error: %s\n"),
+ 			error->message); /* comment traduire ? */
+-		fprintf(stderr, g_option_context_get_help(context,
++		fprintf(stderr, "%s", g_option_context_get_help(context,
+ 							  FALSE, NULL));
+ 	}
+ 
+diff --git a/src/udev.c b/src/udev.c
+index 004e773..9995101 100644
+--- a/src/udev.c
++++ b/src/udev.c
+@@ -91,7 +91,7 @@ main(int argc, char *argv[])
+ 	if (!g_option_context_parse(context, &argc, &argv, &error)) {
+ 		fprintf(stderr, _("Error: %s\n"),
+ 			error->message); /* comment traduire ? */
+-		fprintf(stderr, g_option_context_get_help(context,
++		fprintf(stderr, "%s", g_option_context_get_help(context,
+ 							  FALSE, NULL));
+ 	}
+ 

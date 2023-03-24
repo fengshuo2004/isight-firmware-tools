@@ -1,0 +1,95 @@
+This is ift-extract.info, produced by makeinfo version 4.11 from
+ift-extract.texi.
+
+INFO-DIR-SECTION General Commands
+
+START-INFO-DIR-ENTRY
+* ift-extract: (ift-extract).   Built-in iSight firmware extractor.
+END-INFO-DIR-ENTRY
+
+   Copyright (C) 2007 Étienne Bersac <bersace@gmail.com>
+
+
+File: ift-extract.info,  Node: Top,  Next: Driver,  Up: (dir)
+
+Built-in iSight firmware extractor and patcher
+**********************************************
+
+   ift-extract extract the Built-in iSight firmware from Apple driver
+and patch it to avoid some bugs in it. The firmware is then ready to get
+loaded into the chip using ift-load.
+
+* Menu:
+
+* Driver::      Finding the Apple driver
+* Options::     Command line options
+* Copying::
+
+
+File: ift-extract.info,  Node: Driver,  Next: Options,  Prev: Top,  Up: Top
+
+1 Finding the Apple driver
+**************************
+
+ift-extract extract Built-in iSight firmware from Apple iSight driver.
+This driver is located at
+/System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/AppleUSBVideoSupport.kext/Contents/MacOS/AppleUSBVideoSupport
+on your Mac OS X root partition.
+
+   There is several version of this driver depending on driver version
+or host architecture (PowerPC or x86). Thus, ift-extract must determine
+know the variant of the driver in order to properly extract the
+firmware.
+
+   Any AppleUSBVideoSupport file starting with those shipped with iMac
+G5 iSight must work. If not, please report unknown AppleUSBVideoSupport
+at bugreport mail address with machine type and OS X version.
+
+
+File: ift-extract.info,  Node: Options,  Next: Copying,  Prev: Driver,  Up: Top
+
+2 Command line options
+**********************
+
+`-a'
+`--apple-driver'
+     Apple driver filename where to extract the firmware.
+
+`-d'
+`--output-directory'
+     The directory where to output the firmware. Defaults to
+     /lib/firmware.
+
+`-f'
+`--output-filename'
+     The output firmware name. Defaults to isight.fw
+
+`-?'
+`--help'
+     Shows option help and quit.
+
+   Since ift-extract defaults to output the firmware to
+/lib/firmware/isight.fw, ensure you have the right to do so.
+
+
+File: ift-extract.info,  Node: Copying,  Prev: Options,  Up: Top
+
+3 Copying
+*********
+
+isight-firmware-tools is a project developped by Étienne Bersac based
+on the work of Ronald S. Bultje, Johannes Berg and Ivan N. Zlatev.
+
+   This manual has been written by Étienne Bersac.
+
+   Copyright (C) 2007 Étienne Bersac <bersace@gmail.com>
+
+
+
+Tag Table:
+Node: Top287
+Node: Driver728
+Node: Options1540
+Node: Copying2104
+
+End Tag Table

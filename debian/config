@@ -1,0 +1,33 @@
+#!/bin/sh
+# This scripts from isight-firmware-tools_1.0.2-0ubuntu0~ppa1
+# package
+set -e
+
+. /usr/share/debconf/confmodule 
+
+case "$1" in 
+	configure|reconfigure)
+		db_title Apple iSight firmware
+		db_input high isight-firmware-tools/extract || true
+		db_go
+		db_get isight-firmware-tools/extract
+		if [ "$RET" = "true" ]; then
+			db_input high isight-firmware-tools/driver-location || true
+			db_go
+			db_get isight-firmware-tools/driver-location
+			# file exist check
+			if [ ! -f "$RET" ] ; then
+				db_input high isight-firmware-tools/file_not_exist || true
+				db_go
+			fi
+		fi
+		db_go || true
+		;;
+    *)
+	;;
+esac
+
+exit 0
+
+#DEBHELPER#
+

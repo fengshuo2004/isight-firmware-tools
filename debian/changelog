@@ -1,0 +1,200 @@
+isight-firmware-tools (1.6-4) unstable; urgency=medium
+
+  * Add Danish debconf templates translation. (Closes: #767486)
+    Thanks to Frans Spiesschaert.
+  * Fix FTBFS, use libgcrypt20-dev instead. (Closes: #919415)
+    Thanks to Andreas Henriksson.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Tue, 29 Jan 2019 12:12:57 +0900
+
+isight-firmware-tools (1.6-3) unstable; urgency=medium
+
+  * Change team mail address. (Closes: #899555)
+  * Bumped Standards-Version to 4.1.4.
+  * Change Vcs-Git and Vcs-Browser: to salsa.
+  * Change Priority to optional.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Fri, 25 May 2018 09:26:46 +0900
+
+isight-firmware-tools (1.6-2) unstable; urgency=low
+
+  * Update debian/control.
+    - Change Maintainer to Debian Mactel.
+    - Bumped standards-version to 3.9.4.
+    - Update version of debhelper to 9.
+    - Add Vcs-Git and Vcs-Browser field.
+  * Update debian/rules.
+    - Add fixup target. Remove info file in this target.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Wed, 24 Jul 2013 13:01:32 +0900
+
+isight-firmware-tools (1.6-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update debian/control.
+    - Bumped standards-version to 3.9.2.
+  * Add patches/fix_format-security.patch.
+    Fix FTBFS: format not a string literal and no format arguments. 
+    (Closes: #653843)
+  * Add patches/man_ift-extract.patch.
+    ift-extract was empty. This patch provide man page of ift-extract.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Mon, 09 Jan 2012 07:18:53 +0900
+
+isight-firmware-tools (1.5.93-1) unstable; urgency=low
+
+  * New upstream release.
+  * Change to 3.0 (quilt).
+  * Disable hal (Closes: 605783).
+  * Drop all pathces. Some patches was applied to upstream.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Mon, 28 Feb 2011 00:25:09 +0900
+
+isight-firmware-tools (1.4.2-4) unstable; urgency=low
+
+  * Update debian/control.
+    - Bumped standards-version to 3.9.1.
+      No changes needed.
+    - Add Homepage field.
+  * Added Danish debconf templates translation (Closes: #595619).
+    Thanks to Joe Dalton.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Tue, 07 Sep 2010 12:24:24 +0900
+
+isight-firmware-tools (1.4.2-3) unstable; urgency=low
+
+  * Backports firmware infomation from upstream git/HEAD. (Closes: #546848)
+    Thanks testing, Kartik Mistry.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Mon, 26 Oct 2009 00:42:45 +0900
+
+isight-firmware-tools (1.4.2-2) unstable; urgency=low
+
+  * Change e-mail address.
+  * Remove DM-Upload-Allowed field.
+  * Bump up Standards-Version.
+  * Fix typo in ja.po. (03_ja.po_typo.dpatch)
+    Thanks, Takanori MATSUURA.
+  * Cleanup debian/patches.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Tue, 15 Sep 2009 03:11:20 +0900
+
+isight-firmware-tools (1.4.2-1) unstable; urgency=low
+
+  * New upstream release
+  * Update Standards-Version
+  * Remove Japanese po. (06_japanese.po.dpatch)
+
+ -- Nobuhiro Iwamatsu <iwamatsu@nigauri.org>  Thu, 25 Jun 2009 14:32:46 +0900
+
+isight-firmware-tools (1.4.1-1) unstable; urgency=low
+
+  * New upstream release
+    - Remove patches(02_ja-po, 03_support_mba, 05_support_macosx_5.5).
+  * Update debian/rules
+    - Add DEB_CONFIGURE_USER_FLAGS and set "--disable-udev --enable-hal"
+  * Updated Galician debconf templates. (Closes: #512242)
+  * Update Japanese po. (06_japanese.po.dpatch)
+
+ -- Nobuhiro Iwamatsu <iwamatsu@nigauri.org>  Wed, 04 Mar 2009 20:19:36 +0900
+
+isight-firmware-tools (1.2-9) unstable; urgency=low
+
+  * Updated Vietnamese debconf templates. (Closes: #509713)
+
+ -- Nobuhiro Iwamatsu <iwamatsu@nigauri.org>  Sat, 27 Dec 2008 20:29:54 +0900
+
+isight-firmware-tools (1.2-8) unstable; urgency=low
+
+  * Updated Japanese debconf template. (Closes: #508802)
+
+ -- Nobuhiro Iwamatsu <iwamatsu@nigauri.org>  Sat, 20 Dec 2008 17:28:17 +0900
+
+isight-firmware-tools (1.2-7) unstable; urgency=low
+
+  * Updated French debconf templates.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@nigauri.org>  Thu, 04 Dec 2008 20:25:16 +0900
+
+isight-firmware-tools (1.2-6) unstable; urgency=low
+
+  * Thank you Translaters.
+  * Update control file and debconf templates. (Closes: #504737, #505655)
+  * Updated French debconf templates. (Closes: #504785)
+  * Updated Swedish debconf templates. (Closes: #505741, #505543)
+  * Updated German debconf templates. (Closes: #504736)
+  * Updated Italian debconf templates. (Closes: #506395)
+  * Updated Portuguese debconf templates. (Closes: #506088)
+  * Updated Czech debconf templates. (Closes: #505911)
+  * Updated Polish debconf templates. (Closes: #505860)
+  * Updated Spanish debconf templates. (Closes: #506774)
+  * Updated Romanian debconf templates. (Closes: #506797)
+  * Updated Russian debconf templates. (Closes: #507145)
+  * Updated Japanese debconf templates.
+  * Add support MacOS X 5.5 firmware. (Closes: #506237)
+    backports from Upstream. 
+
+ -- Nobuhiro Iwamatsu <iwamatsu@nigauri.org>  Sat, 29 Nov 2008 13:18:27 +0900
+
+isight-firmware-tools (1.2-5) unstable; urgency=low
+
+  * Update debian/README.Debian
+  * Disable first macbook firmware. (Closes: #500419)
+  * Update debian/config and debian/postinst. (Closes: #504101)
+    When a file was not effective and failed in extraction,
+    revised it to display a message. 
+  * Updated Japanese debconf templates.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@nigauri.org>  Wed, 05 Nov 2008 13:12:49 +0900
+
+isight-firmware-tools (1.2-4) unstable; urgency=low
+
+  * Added Spanish debconf templates translation. (Closes: #501803) 
+
+ -- Nobuhiro Iwamatsu <iwamatsu@nigauri.org>  Tue, 28 Oct 2008 12:27:22 +0900
+
+isight-firmware-tools (1.2-3) unstable; urgency=low
+
+  * Remove linux-uvc-source from Recommends (Closes: #497294)
+  * Added Vietnamese debconf templates translation (Closes: #489400)
+  * Closed miss report (Closes: #491286)
+  * Update Standards-Version
+
+ -- Nobuhiro Iwamatsu <iwamatsu@nigauri.org>  Thu, 04 Sep 2008 22:46:46 +0900
+
+isight-firmware-tools (1.2-2) unstable; urgency=low
+
+  * Add support Macbook Air.
+    Thank you Maeda-san.
+  * Change debconf option from -x to -e.
+  * Fix debconf problem.
+    Fix problem of becoming an error at the upgrade. 
+  * Fix callout program's path. (Closes: #483209)
+  * Thank you Translaters.
+  * Added Portuguese debconf templates. (Closes: #482893)
+  * Added Swedish debconf templates. (Closes: #483415)
+  * Added German debconf templates. (Closes: #483525)
+  * Added French debconf templates. (Closes: #486187)
+  * Added Russian debconf templates. (Closes: #488130)
+  * Added Galician debconf templates. (Closes: #488186)
+  * Added Czech debconf templates. (Closes: #488369)
+  * Added Basque debconf templates. (Closes: #488795)
+  * Added Finnish debconf templates. (Closes: #489126)
+  * Added Turkish debconf templates. (Closes: #489155)
+  * Added Romanian debconf templates. (Closes: #489195)
+  * Updated Japanese debconf templates.
+  * Fix one space to much in debconf template. (Closes: #483526)
+  * Add "DM-Upload-Allowed: yes" to debian/control
+
+ -- Nobuhiro Iwamatsu <iwamatsu@nigauri.org>  Sat, 05 Jul 2008 12:37:24 +0900
+
+isight-firmware-tools (1.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #470287)
+  * Change ift-callout name and HAL's script
+    (01_hal-isight-firmware-fdi.dpatch)
+  * Add japanese po 
+    (02_ja-po.dpatch)
+
+ -- Nobuhiro Iwamatsu <iwamatsu@nigauri.org>  Mon, 21 Apr 2008 19:27:40 +0900
+

@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Mert Dirik <mertdirik@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: isight-firmware-tools\n"
+"Report-Msgid-Bugs-To: isight-firmware-tools@packages.debian.org\n"
+"POT-Creation-Date: 2008-11-24 13:59+0900\n"
+"PO-Revision-Date: 2008-06-30 14:25+0200\n"
+"Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
+"Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Extract firmware from Apple driver?"
+msgstr "Aygıt yazılımı Apple sürücüsünden ayıklansın mı?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"If you choose this option, please make sure that you have access to the "
+"AppleUSBVideoSupport driver file."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Apple driver file location:"
+msgstr "Apple sürücü dosyasının konumu:"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+#, fuzzy
+#| msgid "Apple driver file location:"
+msgid "Apple driver file not found"
+msgstr "Apple sürücü dosyasının konumu:"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid ""
+"The file you specified does not exist. The firmware extraction has been "
+"aborted."
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "Firmware extracted successfully"
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "The iSight firmware has been extracted successfully."
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid "Failed to extract firmware"
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid ""
+"The firmware extraction failed. Please check that the file you specified is "
+"a valid firmware file."
+msgstr ""
+
+#~ msgid ""
+#~ "Ensure you have access to the AppleUSBVideoSupport driver file. If not "
+#~ "disable firmware extraction, you can retry it later."
+#~ msgstr ""
+#~ "AppleUSBVideoSupport sürücü dosyasına erişiminiz olduğuna emin olun. Eğer "
+#~ "aygıt yazılımı ayıklamayı etkisizleştirmezseniz, daha sonra tekrar "
+#~ "deneyebilirsiniz."

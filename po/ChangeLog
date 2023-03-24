@@ -1,0 +1,22 @@
+2008-11-04  Étienne BERSAC  <bersace03@laposte.net>
+
+	reviewed by: <delete if not using a buddy>
+
+	* ja.po:
+
+2008-11-04  Étienne BERSAC  <bersace03@laposte.net>
+
+	* fr.po: Updated french translation.
+
+2008-11-04  Étienne BERSAC  <bersace03@laposte.net>
+
+	* Makefile.in.in: Updated autotools.
+
+2008-05-13 Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
+
+       * Update ja.po
+
+2008-03-24  Étienne Bersac  <bersace03@laposte.net>
+
+	* Updated fr_FR.po
+

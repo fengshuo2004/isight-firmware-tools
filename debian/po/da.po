@@ -1,0 +1,81 @@
+# Danish translation isight-firmware-tools.
+# Copyright (C) 2010 isight-firmware-tools & nedenstående oversættere.
+# This file is distributed under the same license as the isight-firmware-tools package.
+# Joe Hansen <joedalton2@yahoo.dk>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: isight-firmware-tools\n"
+"Report-Msgid-Bugs-To: isight-firmware-tools@packages.debian.org\n"
+"POT-Creation-Date: 2008-11-24 13:59+0900\n"
+"PO-Revision-Date: 2010-09-05 23:51+0200\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"Language-Team: Danish <debian-l10n-danish@lists.debian.org> \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Extract firmware from Apple driver?"
+msgstr "Udtræk firmware fra Appledriver?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"If you choose this option, please make sure that you have access to the "
+"AppleUSBVideoSupport driver file."
+msgstr ""
+"Hvis du vælger denne indstilling, så vær sikker på at du har adgang til "
+"driverfilen AppleUSBVideoSupport."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Apple driver file location:"
+msgstr "Placering for Appledriverfil:"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid "Apple driver file not found"
+msgstr "Appledriverfil ikke fundet"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid ""
+"The file you specified does not exist. The firmware extraction has been "
+"aborted."
+msgstr ""
+"Filen du angav findes ikke. Udtrækningen af firmwaren er blevet afbrudt."
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "Firmware extracted successfully"
+msgstr "Firmware udtrukket"
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "The iSight firmware has been extracted successfully."
+msgstr "Firmwaren iSight er blevet udtrukket."
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid "Failed to extract firmware"
+msgstr "Kunne ikke udtrække firmware"
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid ""
+"The firmware extraction failed. Please check that the file you specified is "
+"a valid firmware file."
+msgstr ""
+"Udtrækningen af firmwaren mislykkedes. Tjek venligst at filen du angav er "
+"en gyldig firmwarefil."

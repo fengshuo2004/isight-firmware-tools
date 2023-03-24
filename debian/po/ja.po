@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008 Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
+# This file is distributed under the same license as the PACKAGE package.
+# Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: isight-firmware-tools-1.0.2\n"
+"Report-Msgid-Bugs-To: isight-firmware-tools@packages.debian.org\n"
+"POT-Creation-Date: 2008-11-24 13:59+0900\n"
+"PO-Revision-Date: 2008-12-20 17:34+0900\n"
+"Last-Translator: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>\n"
+"Language-Team: Japanese <debian-doc@debian.or.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Extract firmware from Apple driver?"
+msgstr "Apple ドライバからファームウェアを抽出しますか?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "If you choose this option, please make sure that you have access to the AppleUSBVideoSupport driver file."
+msgstr "このオプションを選択したら、AppleUSBVideoSupport ドライバファイルにアクセスできるか確認してください。"
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Apple driver file location:"
+msgstr "Apple ドライバファイルの位置:"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+#| msgid "Apple driver file location:"
+msgid "Apple driver file not found"
+msgstr "Apple ドライバファイルが見つかりませんでした"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid "The file you specified does not exist. The firmware extraction has been aborted."
+msgstr "指定したファイルがありません。ファームウェアの抽出を中止しました。"
+
+#. Type: text
+#. Description
+#: ../templates:5001
+#| msgid "Extract success"
+msgid "Firmware extracted successfully"
+msgstr "ファームウェア抽出に成功しました"
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "The iSight firmware has been extracted successfully."
+msgstr "iSight ファームウェアは無事に抽出されました。"
+
+#. Type: text
+#. Description
+#: ../templates:6001
+#| msgid "Finished without extracting firmware."
+msgid "Failed to extract firmware"
+msgstr "ファームウェアを抽出に失敗しました"
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid "The firmware extraction failed. Please check that the file you specified is a valid firmware file."
+msgstr "ファームウェア抽出は失敗しました。指定したファイルが有効なファームウェアファイルであることを確認してください。"
+
+#~ msgid ""
+#~ "Ensure you have access to the AppleUSBVideoSupport driver file. If not "
+#~ "disable firmware extraction, you can retry it later."
+#~ msgstr ""
+#~ "AppleUSBVideoSupport ドライバファイルにアクセスできる事を確認してくださ"
+#~ "い。ファームウェア抽出ができない場合、後で行うことができます。"
+#~ msgid "An input file name doesn't exist"
+#~ msgstr "入力されたファイルが存在しません"
+#~ msgid "Extract success. Enjoy iSigiht!."
+#~ msgstr "ファームウェアの抽出に成功しました。iSight をお楽しみください。"
+#~ msgid "Extract fail"
+#~ msgstr "ファームウェア抽出失敗"
+#~ msgid ""
+#~ "Extract fail. This firmware does not support or the file which you chose "
+#~ "is not firmware."
+#~ msgstr ""
+#~ "ファームウェアの抽出に失敗しました。このファームウェアはサポートされていな"
+#~ "いか、選択されたファイルがファームウェアではありません。"
+

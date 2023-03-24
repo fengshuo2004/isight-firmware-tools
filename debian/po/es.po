@@ -1,0 +1,100 @@
+# isight-firmware-tools po-debconf translation to Spanish
+# Copyright (C) 2008
+# This file is distributed under the same license as the arcboot package.
+#
+# Changes:
+#  - Initial translation
+#       Francisco Javier Cuadrado <fcocuadrado@gmail.com>
+#
+# Traductores, si no conoce el formato PO, merece la pena leer la
+# documentación de gettext, especialmente las secciones dedicadas a este
+# formato, por ejemplo ejecutando:
+#   info -n '(gettext)PO Files'
+#   info -n '(gettext)Header Entry'
+# Equipo de traducción al español, por favor, lean antes de traducir
+# los siguientes documentos:
+#
+#  - El proyecto de traducción de Debian al español
+#    http://www.debian.org/intl/spanish/
+#    especialmente las notas de traducción en
+#    http://www.debian.org/intl/spanish/notas
+#
+#  - La guía de traducción de po's de debconf:
+#    /usr/share/doc/po-debconf/README-trans
+#    o http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: isight-firmware-tools 1.2-6\n"
+"Report-Msgid-Bugs-To: isight-firmware-tools@packages.debian.org\n"
+"POT-Creation-Date: 2008-11-14 18:34+0100\n"
+"PO-Revision-Date: 2008-11-14 20:57+0100\n"
+"Last-Translator: Francisco Javier Cuadrado <fcocuadrado@gmail.com>\n"
+"Language-Team: Debian Spanish <debian-l10n-spanish@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Extract firmware from Apple driver?"
+msgstr "¿Extraer el firmware del controlador de Apple?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "If you choose this option, please make sure that you have access to the AppleUSBVideoSupport driver file."
+msgstr "Si elige esta opción, por favor asegúrese de que tiene acceso al archivo del controlador AppleUSBVideoSupport."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Apple driver file location:"
+msgstr "Ubicación del archivo del controlador de Apple:"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+#| msgid "Apple driver file location:"
+msgid "Apple driver file not found"
+msgstr "No se ha encontrado el archivo del controlador de Apple"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid "The file you specified does not exist. The firmware extraction has been aborted."
+msgstr "El archivo que ha especificado no existe. La extracción del firmware se ha abortado."
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "Firmware extracted successfully"
+msgstr "El firmware se ha extraído con éxito"
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "The iSight firmware has been extracted successfully."
+msgstr "La extracción del firmware de iSight se ha realizado con éxito."
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid "Failed to extract firmware"
+msgstr "Se produjo un fallo al extraer el firmware"
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid "The firmware extraction failed. Please check that the file you specified is a valid firmware file."
+msgstr "La extracción del firmware ha fallado. Por favor, compruebe que el archivo que ha especificado es un archivo de firmware válido."
+
+#~ msgid ""
+#~ "Ensure you have access to the AppleUSBVideoSupport driver file. If not "
+#~ "disable firmware extraction, you can retry it later."
+#~ msgstr ""
+#~ "Asegúrese de que tiene acceso al archivo del controlador "
+#~ "AppleUSBVideoSupport. Sino cancele la extracción del firmware, puede "
+#~ "reintentarlo más tarde."
+

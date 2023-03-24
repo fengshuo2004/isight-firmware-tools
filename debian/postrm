@@ -1,0 +1,19 @@
+#!/bin/sh
+# This scritps from isight-firmware-tools_1.0.2-0ubuntu0~ppa1
+# package
+set -e
+
+case "$1" in
+    purge|remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+	test -e /lib/firmware/isight.fw && rm -f /lib/firmware/isight.fw;
+	;;
+
+    *)
+        echo "postrm called with unknown argument \`$1'" >&2
+        exit 1
+	;;
+esac
+
+#DEBHELPER#
+
+exit 0

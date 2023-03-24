@@ -1,0 +1,27 @@
+isight-firmware-tools for Debian
+		First release: Sun, 11 May 2008 21:07:07 +0900
+--------------------------------
+ This package support Apple Macbook's Built in iSight.
+
+ 0. firmware
+    Install isight-firmware-tools, it will ask you the path to
+    AppleUSBVideoSupport.
+
+ 1. HAL
+    Reboot or simply relaunch HAL : /etc/init.d/hal restart
+
+ 2. Test Macbook
+    I tested with following Macbook.
+        - CoreDuo Macbook
+	- Macbook Air
+	  Thank you Maeda-san!
+
+ 3. Test firmware
+    I tested with following firmware (sha1sum).
+    - 01e291d529e7c18deea2eba252d18114e096276e  Update MAC OS X firmware
+    - bd5dc3fff3a65f35a6b8a18140298c0694b3edc6  Macbook air version
+
+    The following firmwares don't work now.
+    - 86430c04f9b67c5c3d84409138a7679827025ec2  First Macbook firmware
+   
+ -- Nobuhiro Iwamatsu <iwamatsu@nigauri.org>  Sat, 01 Nov 2008 09:31:48 +0900 

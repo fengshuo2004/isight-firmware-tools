@@ -1,0 +1,84 @@
+# translation of fr.po to French
+# Translation of isight-firmware-tools debconf templates to French
+# Copyright (C) 2008 Christian Perrier <bubulle@debian.org>
+# This file is distributed under the same license as the isight-firmware-tools package.
+#
+# Christian Perrier <bubulle@debian.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: fr\n"
+"Report-Msgid-Bugs-To: isight-firmware-tools@packages.debian.org\n"
+"POT-Creation-Date: 2008-11-14 18:34+0100\n"
+"PO-Revision-Date: 2008-11-14 18:38+0100\n"
+"Last-Translator: Christian Perrier <bubulle@debian.org>\n"
+"Language-Team: French <debian-l10n-french@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Extract firmware from Apple driver?"
+msgstr "Faut-il extraire le microcode depuis le pilote Apple ?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"If you choose this option, please make sure that you have access to the "
+"AppleUSBVideoSupport driver file."
+msgstr ""
+"Si vous choisissez cette option, veuillez vérifier que vous avez accès au "
+"fichier de pilotes AppleUSBVideoSupport."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Apple driver file location:"
+msgstr "Emplacement du pilote Apple:"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid "Apple driver file not found"
+msgstr "Fichier de pilote Apple introuvable"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid ""
+"The file you specified does not exist. The firmware extraction has been "
+"aborted."
+msgstr ""
+"Le fichier que vous avez indiqué n'existe pas. L'extraction du microcode a "
+"été abandonnée."
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "Firmware extracted successfully"
+msgstr "Extraction du microcode terminée"
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "The iSight firmware has been extracted successfully."
+msgstr "L'extraction du microcode iSight s'est déroulée normalement."
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid "Failed to extract firmware"
+msgstr "Échec de l'extraction du microcode"
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid ""
+"The firmware extraction failed. Please check that the file you specified is "
+"a valid firmware file."
+msgstr ""
+"L'extraction du microcode a échoué. Veuillez vérifier que le fichier indiqué "
+"est bien un ficher de microcode."

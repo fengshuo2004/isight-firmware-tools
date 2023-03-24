@@ -1,0 +1,26 @@
+
+The following steps allow you to have a clean support for Apple
+Built-in iSight on both PPC and intel Macintoshes. No kernelspace
+Apple driver loading !
+
+
+ * Install latest isight-firmware-tools.
+
+   /!\ Configure --sysconfdir=/etc (autotools bug?)  in order to have
+       the udev rules properly installed.
+
+       	    ./configure --sysconfdir=/etc && make && sudo make install
+
+ * Get any AppleUSBVideoSupport from your Mac OS X partition and
+   extract the firmware using ift-extract. ift-extract default output
+   to /lib/firmware/isight.fw, so run as root :
+
+            sudo ift-extract --apple-driver AppleUSBVideoSupport
+
+ * Load the firmware manually or reboot
+
+ 	    sudo ift-load --firmware /lib/firmware/isight.fw
+
+
+Tested with gstreamer-properties, ekiga, cheese 0.2.3 (cheese 0.2.4
+fails, 0.3 not tested).

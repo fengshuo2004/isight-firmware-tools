@@ -1,0 +1,37 @@
+# These templates have been reviewed by the debian-l10n-english
+# team
+#
+# If modifications/additions/rewording are needed, please ask
+# debian-l10n-english@lists.debian.org for advice.
+#
+# Even minor modifications require translation updates and such
+# changes should be coordinated with translators and reviewers.
+
+Template: isight-firmware-tools/extract
+Type: boolean
+Default: true
+_Description: Extract firmware from Apple driver?
+ If you choose this option, please make sure that you have access to
+ the AppleUSBVideoSupport driver file.
+
+Template: isight-firmware-tools/driver-location
+Type: string
+Default: /MacOSX/System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/AppleUSBVideoSupport.kext/Contents/MacOS/AppleUSBVideoSupport
+_Description: Apple driver file location:
+
+Template: isight-firmware-tools/file_not_exist
+Type: note
+_Description: Apple driver file not found
+ The file you specified does not exist. The firmware extraction has been
+ aborted.
+
+Template: isight-firmware-tools/extract_success
+Type: text
+_Description: Firmware extracted successfully
+ The iSight firmware has been extracted successfully.
+
+Template: isight-firmware-tools/extract_fail
+Type: text
+_Description: Failed to extract firmware
+ The firmware extraction failed. Please check that the file you
+ specified is a valid firmware file.

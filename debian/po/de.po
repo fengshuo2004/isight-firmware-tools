@@ -1,0 +1,97 @@
+# Translation of isight-firmware-tools debconf templates to German
+# Copyright (C) Helge Kreutzmann <debian@helgefjell.de>, 2008.
+# This file is distributed under the same license as the isight-firmware-tools package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: isight-firmware-tools 1.2-6\n"
+"Report-Msgid-Bugs-To: isight-firmware-tools@packages.debian.org\n"
+"POT-Creation-Date: 2008-11-14 18:34+0100\n"
+"PO-Revision-Date: 2008-11-18 19:31+0100\n"
+"Last-Translator: Helge Kreutzmann <debian@helgefjell.de>\n"
+"Language-Team: de <debian-l10n-german@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Extract firmware from Apple driver?"
+msgstr "Firmware aus dem Apple-Treiber auslesen?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"If you choose this option, please make sure that you have access to the "
+"AppleUSBVideoSupport driver file."
+msgstr ""
+"Falls Sie diese Option wählen, stellen Sie sicher, dass Sie auf die "
+"AppleUSBVideoSupport-Treiberdatei zugreifen können."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Apple driver file location:"
+msgstr "Speicherort der Apple-Treiberdatei:"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid "Apple driver file not found"
+msgstr "Apple-Treiberdatei nicht gefunden"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid ""
+"The file you specified does not exist. The firmware extraction has been "
+"aborted."
+msgstr ""
+"Die von Ihnen angegebene Datei existiert nicht. Das Auslesen der Firmware "
+"wurde abgebrochen."
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "Firmware extracted successfully"
+msgstr "Firmware erfolgreich ausgelesen"
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "The iSight firmware has been extracted successfully."
+msgstr "Die iSight-Firmware wurde erfolgreich ausgelesen."
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid "Failed to extract firmware"
+msgstr "Auslesen der Firmware fehlgeschlagen"
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid ""
+"The firmware extraction failed. Please check that the file you specified is "
+"a valid firmware file."
+msgstr ""
+"Das Auslesen der Firmware ist fehlgeschlagen. Bitte überprüfen Sie, ob "
+"die von Ihnen angegebene Datei eine gültige Firmware-Datei ist."
+
+#~ msgid ""
+#~ "Ensure you have access to the AppleUSBVideoSupport driver file. If not "
+#~ "disable firmware extraction, you can retry it later."
+#~ msgstr ""
+#~ "Sie müssen auf die AppleUSBVideoSupport-Treiberdatei Zugriff haben. Falls "
+#~ "nicht, deaktivieren Sie die Extrahierung der Firmware, Sie können diese "
+#~ "später erneut versuchen."
+
+#~ msgid "An input file name doesn't exist"
+#~ msgstr "Ein Eingabedateiname existiert nicht"
+
+#~ msgid "Extract fail"
+#~ msgstr "Extrahierung fehlgeschlagen"
+
+

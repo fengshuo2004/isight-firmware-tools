@@ -1,0 +1,303 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-11-04 22:22+0100\n"
+"PO-Revision-Date: 2008-11-04 22:23+0100\n"
+"Last-Translator: Étienne Bersac <bersace03@laposte.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/callout.c:68
+msgid "HAL built-in iSight firmware loader"
+msgstr "chargeur du microcode pour iSight intégrée pour HAL"
+
+#: ../src/callout.c:74
+#: ../src/export.c:210
+#: ../src/udev.c:99
+#, c-format
+msgid "Unable to read firmware %s."
+msgstr "Impossible de lire le microcode %s."
+
+#: ../src/callout.c:98
+#: ../src/udev.c:105
+msgid "No USB busses found"
+msgstr "Aucun bus USB trouvé"
+
+#: ../src/callout.c:100
+#: ../src/udev.c:107
+msgid "No USB devices found"
+msgstr "Aucun périphériques USB trouvé"
+
+#: ../src/callout.c:106
+#, c-format
+msgid "Device %s:%s not found"
+msgstr "Périphérique %s:%s introuvable"
+
+#: ../src/callout.c:109
+#, c-format
+msgid "Failed to upload firmware to %s:%s (%x:%x)"
+msgstr "Échec de l'envoi du microcode a %s:% (%x:%x)"
+
+#: ../src/callout.c:114
+#, c-format
+msgid "Firmware loaded succesfully to %s:%s"
+msgstr "Microcode chargé aevc succès dans %s:%s"
+
+#: ../src/export.c:46
+msgid "Path to the extracted firmware."
+msgstr "Chemin vers le microcode"
+
+#: ../src/export.c:52
+msgid "Output Intel HEX filename"
+msgstr "Nom du fichier Intel HEX de sortie"
+
+#: ../src/export.c:94
+#, c-format
+msgid "Error while writing '%s', %i bytes written instead of %i"
+msgstr "Erreur lors de l'écriture de %s, %i octets ont été écrit au lieu de %i."
+
+#: ../src/export.c:129
+#: ../src/extract.c:274
+#, c-format
+msgid "Unable to open %s."
+msgstr "Impossible d'ouvrir %s"
+
+#: ../src/export.c:135
+#: ../src/extract.c:285
+#, c-format
+msgid "Unable to open %s for writing."
+msgstr "Impossible d'ouvrir %s en écriture."
+
+#: ../src/export.c:145
+#: ../src/extract.c:296
+#: ../src/load.c:80
+msgid "Reading firmware header chunk failed"
+msgstr "Échec à la lecture de l'en-tête d'une tranche du microcode."
+
+#: ../src/export.c:155
+#: ../src/extract.c:308
+#, c-format
+msgid "Invalid firmware data_length %d, load aborted"
+msgstr "Longueur de donnée invalide dans le microcode, chargement annulé."
+
+#: ../src/export.c:159
+#: ../src/extract.c:312
+msgid "Error reading firmware data"
+msgstr "Erreur à la lecture des données du microcode"
+
+#: ../src/export.c:193
+msgid "built-in iSight firmware exporter"
+msgstr "exporteur du microcode pour iSight intégrée"
+
+#: ../src/export.c:203
+#: ../src/extract.c:404
+#: ../src/udev.c:92
+#, c-format
+msgid "Error: %s\n"
+msgstr "Erruer : %s\n"
+
+#: ../src/export.c:218
+#, c-format
+msgid "Firmware exported successfully in %s"
+msgstr "Succès de l'extaction du microcode dans %s"
+
+#: ../src/extract.c:157
+msgid "Fix video control interface descriptor"
+msgstr "Correction du descripteur de l'interface de contrôle vidéo"
+
+#: ../src/extract.c:163
+msgid "Fix video streaming interface descriptor"
+msgstr "Correction du descripteur de l'interface de flux vidéo"
+
+#. needs to be checked
+#: ../src/extract.c:170
+msgid "Fix video streaming device qualifier"
+msgstr "Correction l'interface de flux vidéo"
+
+#: ../src/extract.c:187
+msgid "Path to the AppleUSBVideoSupport driver file."
+msgstr "Chemin vers le pilote AppleUSBVideoSupport"
+
+#: ../src/extract.c:193
+msgid "Output firmware directory"
+msgstr "Dossier d'écriture du microcode"
+
+#: ../src/extract.c:199
+msgid "Name of the output firmware file"
+msgstr "Nom du microcode en sortie"
+
+#: ../src/extract.c:217
+#, c-format
+msgid "Unable to open driver: %s"
+msgstr "Impossible d'ouvrir le pilote : %s"
+
+#: ../src/extract.c:251
+#, c-format
+msgid "Unknown driver. Please report it to %s with machine description and Mac OS X version."
+msgstr "Pilote inconnu. Veuillez le rapporter à %s avec la description de la machine et la version de Mac OS X"
+
+#. translators : %s is the known origin of the driver
+#: ../src/extract.c:257
+#, c-format
+msgid "Found %s driver"
+msgstr "Pilote %s trouvé"
+
+#: ../src/extract.c:277
+#, c-format
+msgid "Failed to seek %s at position %x."
+msgstr "Échec du déplacement dans %s à la position %x."
+
+#: ../src/extract.c:293
+msgid "Unexpected EOS - corrupt driver?"
+msgstr "EOS inoppinée. Pilote corrompu ?"
+
+#: ../src/extract.c:336
+msgid "Error while opening firmware file for patching."
+msgstr "Erreur à l'ouverture du microcode pour le patcher."
+
+#: ../src/extract.c:342
+#, c-format
+msgid "Apply patch %i : %s"
+msgstr "Applique le patch %i : %s"
+
+#: ../src/extract.c:345
+msgid "Unable to patch the firmware."
+msgstr "Impossible de patcher le microcode."
+
+#: ../src/extract.c:351
+msgid "Failed to write patched value !"
+msgstr "Échec de l'écriture de la valeur corrigée !"
+
+#: ../src/extract.c:381
+msgid "built-in iSight firmware extractor and patcher"
+msgstr "extracteur et patcheur du microcode pour iSight intégrée"
+
+#. translators: this is shown at the end of --help output
+#: ../src/extract.c:391
+#, c-format
+msgid ""
+"AppleUSBVideoSupport driver is usualy found in /System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/AppleUSBVideoSupport.kext/Contents/MacOS/ in your Mac OS X root volume.\n"
+"\n"
+"If you have a non-working Apple driver file, please send it to %s withmachine description and OS X version."
+msgstr ""
+"Le pilote AppleUSBVideoSupport se trouve dans /System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/AppleUSBVideoSupport.kext/Contents/MacOS/ dans le volume racine de Mac OS X.\n"
+"\n"
+"Si vous avez un pilote Apple qui ne fonctionne pas, veuillez l'envoyer à %s avec la description de la machine et la version de Mac OS X."
+
+#: ../src/extract.c:411
+#, c-format
+msgid "Unable to read driver %s."
+msgstr "Impossible de lire le pilote %s."
+
+#: ../src/extract.c:428
+msgid "Unable to find firmware in the file."
+msgstr "Impossible de trouver le microcode dans le fichier."
+
+#: ../src/extract.c:433
+#, c-format
+msgid "Firmware extracted successfully in %s"
+msgstr "Succès de l'extaction du microcode dans %s"
+
+#: ../src/extract.c:438
+msgid "Firmware patched successfully"
+msgstr "Succès de la correction du microcode"
+
+#: ../src/extract.c:440
+#, c-format
+msgid "Failed to apply patches to %s"
+msgstr "Échec de la correction de %s"
+
+#: ../src/load.c:58
+msgid "Failed to open device"
+msgstr "Échec de l'ouverture du périphérique"
+
+#: ../src/load.c:63
+msgid "Failed to open firmware"
+msgstr "Échec de l'ouverture du microcode"
+
+#: ../src/load.c:69
+msgid "Failed to init firmware loading"
+msgstr "Échec de l'initialisation du transfert du microcode"
+
+#: ../src/load.c:91
+#, c-format
+msgid "Invalid firmware data_length %d, load aborted\n"
+msgstr "Longueur de donnée invalide dans le microcode, chargement annulé.\n"
+
+#: ../src/load.c:96
+msgid "Failed to read firmware data"
+msgstr "Erreur à la lecture des données du microcode"
+
+#: ../src/load.c:108
+#, c-format
+msgid "Firmware load req=0x%x failed: %s"
+msgstr "Échec du chargement req=0x%x : %s"
+
+#: ../src/load.c:120
+msgid "Failed to close firmware loading"
+msgstr "Échec de la cloture du transfert du microcode"
+
+#: ../src/load.c:144
+#, c-format
+msgid "USB Bus %s not found"
+msgstr "Bus USB %s introuvable"
+
+#: ../src/load.c:156
+#, c-format
+msgid "USB device %s not found in bus %s"
+msgstr "Périphérique USB %s introuvable sur le bus %s"
+
+#: ../src/load.c:182
+#, c-format
+msgid "USB device 0x%04X:0x%04X not found"
+msgstr "Périphérique 0x%04X:0x%04X introuvable"
+
+#: ../src/udev.c:54
+msgid "Path to the firmware."
+msgstr "Chemin vers le microcode"
+
+#: ../src/udev.c:77
+msgid "built-in iSight firmware loader"
+msgstr "chargeur du microcode pour iSight intégrée"
+
+#. tip at the end of --help output
+#: ../src/udev.c:87
+msgid "Use ift-extract to extract firmware."
+msgstr "Utiliser ift-extract pour extraire le microcode"
+
+#: ../src/udev.c:114
+msgid "No iSight found"
+msgstr "Aucune cybercaméra iSight trouvée"
+
+#: ../src/udev.c:117
+#, c-format
+msgid "Failed to upload firmware to 0x%04X:0x%04X"
+msgstr "Échec de l'envoi du microcode a 0x%04X:0x%04X"
+
+#: ../src/udev.c:121
+msgid "iSight firmware loaded successfully"
+msgstr "Chargement du microcode terminé"
+
+#~ msgid "USB bus id"
+#~ msgstr "Identifiant du bus USB"
+#~ msgid "USB device id"
+#~ msgstr "Identifiant du périphérique USB"
+#~ msgid "No USB bus id specified"
+#~ msgstr "Aucun identifiant de bus USB spécifié"
+#~ msgid "No USB device id specified"
+#~ msgstr "Aucune identifiant de périphérique USB spécifié"
+#~ msgid "SHA1 sum : %s"
+#~ msgstr "Somme SHA1 : %s"
+#~ msgid "Extract firmware using ift-extract."
+#~ msgstr "Extraire le microcode avec ift-extract"
+#~ msgid "driver-file"
+#~ msgstr "pilote"
+

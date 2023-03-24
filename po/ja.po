@@ -1,0 +1,297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-11-04 22:22+0100\n"
+"PO-Revision-Date: 2009-03-18 20:55+0900\n"
+"Last-Translator: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/callout.c:68
+msgid "HAL built-in iSight firmware loader"
+msgstr "HAL 用内蔵 iSight ファームウェアローダ"
+
+#: ../src/callout.c:74
+#: ../src/export.c:210
+#: ../src/udev.c:99
+#, c-format
+msgid "Unable to read firmware %s."
+msgstr "ファームウェア %s を読み込めません。"
+
+#: ../src/callout.c:98
+#: ../src/udev.c:105
+msgid "No USB busses found"
+msgstr "USB バスが見つかりません。"
+
+#: ../src/callout.c:100
+#: ../src/udev.c:107
+msgid "No USB devices found"
+msgstr "USB デバイスが見つかりません。"
+
+#: ../src/callout.c:106
+#, c-format
+msgid "Device %s:%s not found"
+msgstr "デバイス %s:%s が見つかりません。"
+
+#: ../src/callout.c:109
+#, c-format
+msgid "Failed to upload firmware to %s:%s (%x:%x)"
+msgstr "%s:%s (%x:%x) へのファームウェアアップロードに失敗しました。"
+
+#: ../src/callout.c:114
+#, c-format
+msgid "Firmware loaded succesfully to %s:%s"
+msgstr "ファームウェアが無事 %s:%s へロードできました。"
+
+#: ../src/export.c:46
+msgid "Path to the extracted firmware."
+msgstr "取り出すファームウェアへのパス"
+
+#: ../src/export.c:52
+msgid "Output Intel HEX filename"
+msgstr "インテル HEX 出力ファイル名"
+
+#: ../src/export.c:94
+#, c-format
+msgid "Error while writing '%s', %i bytes written instead of %i"
+msgstr "'%s' を書いている時にエラーになり、 %2$i を代わりに %1$i バイト書き込まれました"
+
+#: ../src/export.c:129
+#: ../src/extract.c:274
+#, c-format
+msgid "Unable to open %s."
+msgstr "%s を開くことが出来ません。"
+
+#: ../src/export.c:135
+#: ../src/extract.c:285
+#, c-format
+msgid "Unable to open %s for writing."
+msgstr "書き込みのために %s を開くことができません。"
+
+#: ../src/export.c:145
+#: ../src/extract.c:296
+#: ../src/load.c:80
+msgid "Reading firmware header chunk failed"
+msgstr "ファームウェアヘッダの塊の読み込みに失敗しました。"
+
+#: ../src/export.c:155
+#: ../src/extract.c:308
+#, c-format
+msgid "Invalid firmware data_length %d, load aborted"
+msgstr "ファームウェアのデータ長 %d が無効なため、読み込みを中止します。"
+
+#: ../src/export.c:159
+#: ../src/extract.c:312
+msgid "Error reading firmware data"
+msgstr "ファームウェアデータの読み込みエラーです。"
+
+#: ../src/export.c:193
+msgid "built-in iSight firmware exporter"
+msgstr "内蔵 iSight ファームウェア 書き出しツール"
+
+#: ../src/export.c:203
+#: ../src/extract.c:404
+#: ../src/udev.c:92
+#, c-format
+msgid "Error: %s\n"
+msgstr "エラー : %s\n"
+
+#: ../src/export.c:218
+#, c-format
+msgid "Firmware exported successfully in %s"
+msgstr "ファームウェアが無事、 %s へ書き出せました。"
+
+#: ../src/extract.c:157
+msgid "Fix video control interface descriptor"
+msgstr "ビデオコントロールインターフェースのディスクリプタを修正します。"
+
+#: ../src/extract.c:163
+msgid "Fix video streaming interface descriptor"
+msgstr "ビデオストリーミングインターフェースのディスクリプタを修正します。"
+
+#. needs to be checked
+#: ../src/extract.c:170
+msgid "Fix video streaming device qualifier"
+msgstr "ビデオストリーミングデバイス修飾子を修正します。"
+
+#: ../src/extract.c:187
+msgid "Path to the AppleUSBVideoSupport driver file."
+msgstr "AppleUSBVideoSupport ドライバファイルへのパス"
+
+#: ../src/extract.c:193
+msgid "Output firmware directory"
+msgstr "ファームウェア出力ディレクトリ"
+
+#: ../src/extract.c:199
+msgid "Name of the output firmware file"
+msgstr "出力ファームウェアファイル名"
+
+#: ../src/extract.c:217
+#, c-format
+msgid "Unable to open driver: %s"
+msgstr "ドライバーがオープンできません : %s"
+
+#: ../src/extract.c:251
+#, c-format
+msgid "Unknown driver. Please report it to %s with machine description and Mac OS X version."
+msgstr "不明なドライバです。それを Mac OS X バージョンとマシンの説明と一緒に %s に報告してください。"
+
+#. translators : %s is the known origin of the driver
+#: ../src/extract.c:257
+#, c-format
+msgid "Found %s driver"
+msgstr "%s ドライバが見つかりました。"
+
+#: ../src/extract.c:277
+#, c-format
+msgid "Failed to seek %s at position %x."
+msgstr "位置 %x で %s を探せませんでした。"
+
+#: ../src/extract.c:293
+msgid "Unexpected EOS - corrupt driver?"
+msgstr "予想できない EOS - 不正なドライバー?"
+
+#: ../src/extract.c:336
+msgid "Error while opening firmware file for patching."
+msgstr "修正するために、ファームウェアファイルを開いている間のエラー"
+
+#: ../src/extract.c:342
+#, c-format
+msgid "Apply patch %i : %s"
+msgstr "パッチ %i を適用します。: %s"
+
+#: ../src/extract.c:345
+msgid "Unable to patch the firmware."
+msgstr "ファームウェアの修正ができませんでした。"
+
+#: ../src/extract.c:351
+msgid "Failed to write patched value !"
+msgstr "修正された値を書き込めませんでした !"
+
+#: ../src/extract.c:381
+msgid "built-in iSight firmware extractor and patcher"
+msgstr "内蔵 iSight ファームウェア抽出プログラムとパッチ摘要プログラム"
+
+#. translators: this is shown at the end of --help output
+#: ../src/extract.c:391
+#, c-format
+msgid ""
+"AppleUSBVideoSupport driver is usualy found in /System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/AppleUSBVideoSupport.kext/Contents/MacOS/ in your Mac OS X root volume.\n"
+"\n"
+"If you have a non-working Apple driver file, please send it to %s withmachine description and OS X version."
+msgstr ""
+"通常、AppleUSBVideoSupport ドライバーは Mac OS X ルートボリュームの/System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/AppleUSBVideoSupport.kext/Contents/MacOS/ に見つけられます。\n"
+"\n"
+"もし動作しない Apple ドライバーファイルがありましたら、それをマシン情報と OS X のバージョン情報と共に %s に送ってください。"
+
+#: ../src/extract.c:411
+#, c-format
+msgid "Unable to read driver %s."
+msgstr "ドライバ %s を読み込むことができません。"
+
+#: ../src/extract.c:428
+msgid "Unable to find firmware in the file."
+msgstr "ファイルの中にファームウェアを見つけることができません。"
+
+#: ../src/extract.c:433
+#, c-format
+msgid "Firmware extracted successfully in %s"
+msgstr "%s のファームウェア取り出しに成功しました。"
+
+#: ../src/extract.c:438
+msgid "Firmware patched successfully"
+msgstr "ファームウェアが無事修正できました。"
+
+#: ../src/extract.c:440
+#, c-format
+msgid "Failed to apply patches to %s"
+msgstr "%s へのパッチの適用に失敗しました。"
+
+#: ../src/load.c:58
+msgid "Failed to open device"
+msgstr "デバイスオープンに失敗しました。"
+
+#: ../src/load.c:63
+msgid "Failed to open firmware"
+msgstr "ファームウェアのオープンに失敗しました。"
+
+#: ../src/load.c:69
+msgid "Failed to init firmware loading"
+msgstr "ファームウェア読み込み初期化に失敗しました。"
+
+#: ../src/load.c:91
+#, c-format
+msgid "Invalid firmware data_length %d, load aborted\n"
+msgstr "ファームウェアのデータ長 %d が無効なため、読み込みを中止します。\n"
+
+#: ../src/load.c:96
+msgid "Failed to read firmware data"
+msgstr "ファームウェアデータの読み込みに失敗しました。"
+
+#: ../src/load.c:108
+#, c-format
+msgid "Firmware load req=0x%x failed: %s"
+msgstr "ファームウェア読み込み req=0x%x : %s"
+
+#: ../src/load.c:120
+msgid "Failed to close firmware loading"
+msgstr "ファームウェア読み込みの終了に失敗しました。"
+
+#: ../src/load.c:144
+#, c-format
+msgid "USB Bus %s not found"
+msgstr "USB バス %s が見つかりません。"
+
+#: ../src/load.c:156
+#, c-format
+msgid "USB device %s not found in bus %s"
+msgstr "USB デバイス %s が バス %s に見つかりません。"
+
+#: ../src/load.c:182
+#, c-format
+msgid "USB device 0x%04X:0x%04X not found"
+msgstr "USB デバイス 0x%04X:0x%04X が見つかりません"
+
+#: ../src/udev.c:54
+msgid "Path to the firmware."
+msgstr "ファームウェアへのパス"
+
+#: ../src/udev.c:77
+msgid "built-in iSight firmware loader"
+msgstr "内蔵 iSight ファームウェアローダ"
+
+#. tip at the end of --help output
+#: ../src/udev.c:87
+msgid "Use ift-extract to extract firmware."
+msgstr "ift-extract を使って、ファームウェアを抽出します。"
+
+#: ../src/udev.c:114
+msgid "No iSight found"
+msgstr "iSight が見つかりません"
+
+#: ../src/udev.c:117
+#, c-format
+msgid "Failed to upload firmware to 0x%04X:0x%04X"
+msgstr "0x%04X:0x%04X へのファームウェアアップロードに失敗しました"
+
+#: ../src/udev.c:121
+msgid "iSight firmware loaded successfully"
+msgstr "iSight ファームウェアが無事読み込めました"
+
+#~ msgid "USB bus id"
+#~ msgstr "USB バス id"
+#~ msgid "USB device id"
+#~ msgstr "USB デバイス id"
+#~ msgid "No USB bus id specified"
+#~ msgstr "USB バス ID が一つも指定されていません。"
+#~ msgid "No USB device id specified"
+#~ msgstr "USB デバイス ID が一つも指定されていません。"
+

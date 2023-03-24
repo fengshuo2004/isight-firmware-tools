@@ -1,0 +1,88 @@
+# Czech translation of isight-firmware-tools debconf messages.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the isight-firmware-tools package.
+# Miroslav Kure <kurem@debian.cz>, 2008
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: isight-firmware-tools\n"
+"Report-Msgid-Bugs-To: isight-firmware-tools@packages.debian.org\n"
+"POT-Creation-Date: 2008-11-14 18:34+0100\n"
+"PO-Revision-Date: 2008-11-16 18:23+0100\n"
+"Last-Translator: Miroslav Kure <kurem@debian.cz>\n"
+"Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Extract firmware from Apple driver?"
+msgstr "Vytáhnout firmware z Apple ovladače?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"If you choose this option, please make sure that you have access to the "
+"AppleUSBVideoSupport driver file."
+msgstr ""
+"Zvolíte-li tuto možnost, ujistěte se, že máte přístup k souboru s ovladačem "
+"AppleUSBVideoSupport."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Apple driver file location:"
+msgstr "Umístění souboru s Apple ovladačem:"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+#| msgid "Apple driver file location:"
+msgid "Apple driver file not found"
+msgstr "Soubor s Apple ovladačem nenalezen"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid ""
+"The file you specified does not exist. The firmware extraction has been "
+"aborted."
+msgstr "Zadaný soubor neexistuje. Extrakce firmwaru byla přerušena."
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "Firmware extracted successfully"
+msgstr "Firmware byl úspěšně vyextrahován"
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "The iSight firmware has been extracted successfully."
+msgstr "iSight firmware byl úspěšně vyextrahován."
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid "Failed to extract firmware"
+msgstr "Extrakce firmwaru selhala"
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid ""
+"The firmware extraction failed. Please check that the file you specified is "
+"a valid firmware file."
+msgstr ""
+"Firmware se nepodařilo vyextrahovat. Zkontrolujte prosím, zda zadaný soubor "
+"obsahuje platný firmware."
+
+#~ msgid ""
+#~ "Ensure you have access to the AppleUSBVideoSupport driver file. If not "
+#~ "disable firmware extraction, you can retry it later."
+#~ msgstr ""
+#~ "Ujistěte se, že máte přístup k souboru s ovladačem AppleUSBVideoSupport. "
+#~ "Pokud přístup nemáte, můžete zkusit firmware vytáhnout později."

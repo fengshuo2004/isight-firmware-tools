@@ -1,0 +1,87 @@
+Versio 1.6 :
+------------
+
+ * Now seek for firmware instead of using SHA1 sums + offset.
+
+Version 1.5.90 :
+----------------
+
+ * Dropped HAL callout
+
+ * Added SHA1 for Mac OS X.5.7, X.5.8 and X.6 driver on various 
+   hardware.
+
+ * Updated japanese translation (Thanks to Nobuhiro Iwamatsu)
+
+Version 1.4.1 :
+–––––––––––––––
+
+ * Added three SHA1 sum for Mac OS X.6.
+
+ * Order SHA1 sums to optimize lookup.
+
+Version 1.4 :
+–––––––––––––
+
+ * Search vendor/product id rather than bus/dev id in udev loader.
+
+ * Switch back to udev loader by default. This is less portable, but
+   HAL and DeviceKit people prefer this policy.
+
+ * Added two SHA1 sum from debian package and for Mac OS X.5.5
+
+Version 1.2 :
+—————————————
+
+ * Provide HAL callout, udev support is obsolete. Use --enable-udev
+   and --disable-hal to have previous behaviour.
+
+ * Updated driver table.
+
+Version 1.0 :
+—————————————
+
+ * Use DEVICE env var for finding USB bus id and device id.
+
+ * Added Leopard driver support.
+
+Version 0.5 :
+—————————————
+
+ * new tool : ift-export. Exports firmware in Intel HEX format.
+
+ * Uses syslog facility in ift-load.
+
+ * Info and man pages for ift-extract and ift-export.
+
+Version 0.4 :
+—————————————
+
+ * Added i18n and fr_FR translation.
+
+ * Use GOption parsing.
+
+ * ift-extract: added option for output directory and output
+   filename. Default to /lib/firmware and isight.fw.
+
+ * ift-load: drop vendor_id:product_id probe and use udev USB_BUS and
+   USB_DEV environment variables or from command line option.
+
+Version 0.3 :
+—————————————
+
+ * added udev rules for automatic firmware loading.
+
+ * install ift-load in sbin dir.
+
+ * ift-extract now patch the firmware.
+
+
+Version 0.2 :
+—————————————
+
+ * Splitted extract into ift-extract and ift-load.
+
+ * Use autotools.
+
+ * Added Mac OS X.4 PPC driver offset.

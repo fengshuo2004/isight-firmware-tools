@@ -1,0 +1,70 @@
+\input texinfo
+@setfilename ift-export.info
+@settitle    Built-in iSight firmware exporter
+@dircategory General Commands
+
+@direntry
+* ift-export: (ift-export).     Export Built-in iSight firmware to Intel HEX.
+@end direntry
+
+@copying
+Copyright @copyright{} 2007 Étienne Bersac
+@end copying
+
+@titlepage
+@title Built-in iSight firmware exporter
+
+This file documents the `ift-export` firmware converter.
+
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+@end titlepage
+
+@contents
+
+@ifnottex
+@node top
+@top Built-in iSight firmware export
+@end ifnottex
+
+ift-export export a Built-in iSight firmware produced by ift-extract
+and convert it to Intel HEX file. Note that Apple Built-in iSight
+seems to have extende on-chip memory. This case is not handled by
+fxload and thus, not allowing to load the Intel HEX file into the
+chip. Use ift-load to load directly the binary firmware on-chip.
+
+@menu
+* Options::    Command line options
+* Copying::
+@end menu
+
+
+@node Options
+@chapter Command line options
+
+@table @samp
+@item -i
+@itemx --input-firmware
+Driver filename to export to Intel HEX file.
+
+@item -o
+@itemx --output
+The output  Intel HEX filename.
+
+@item -?
+@itemx --help
+Shows option help and quit.
+@end table
+
+@node Copying
+@chapter Copying
+
+isight-firmware-tools is a project developped by Étienne Bersac based
+on the work of Ronald S. Bultje, Johannes Berg and Ivan N. Zlatev.
+
+This manual has been written by Étienne Bersac.
+
+@insertcopying
+
+@bye

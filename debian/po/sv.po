@@ -1,0 +1,108 @@
+# translation of sv.po to swedish
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Martin Bagge <martin.bagge@bthstudent.se>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: sv\n"
+"Report-Msgid-Bugs-To: isight-firmware-tools@packages.debian.org\n"
+"POT-Creation-Date: 2008-11-14 18:34+0100\n"
+"PO-Revision-Date: 2008-11-14 21:00+0100\n"
+"Last-Translator: Martin Bagge <brother@bsnet.se>\n"
+"Language-Team: swedish <debian-l10n-swedish@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Extract firmware from Apple driver?"
+msgstr "Packa upp miniprogrammet från Apples drivrutin?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"If you choose this option, please make sure that you have access to the "
+"AppleUSBVideoSupport driver file."
+msgstr ""
+"Om du väljer detta alternativ måste du först ha tillgång till "
+"drivrutinsfilen AppleUSBVideoSupport."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Apple driver file location:"
+msgstr "Plats för drivrutin:"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+#| msgid "Apple driver file location:"
+msgid "Apple driver file not found"
+msgstr "Drivrutinsfil kunde inte hittas"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid ""
+"The file you specified does not exist. The firmware extraction has been "
+"aborted."
+msgstr "Filen du angav existerar inte. Uppackningen av miniprogrammet avbröts."
+
+#. Type: text
+#. Description
+#: ../templates:5001
+#| msgid "Extract success"
+msgid "Firmware extracted successfully"
+msgstr "Miniprogrammet packades upp  utan problem"
+
+#. Type: text
+#. Description
+#: ../templates:5001
+msgid "The iSight firmware has been extracted successfully."
+msgstr "Miniprogrammet för iSight packades upp utan problem."
+
+#. Type: text
+#. Description
+#: ../templates:6001
+#| msgid "Finished without extracting firmware."
+msgid "Failed to extract firmware"
+msgstr "Misslyckades med uppackningen av miniprogrammet."
+
+#. Type: text
+#. Description
+#: ../templates:6001
+msgid ""
+"The firmware extraction failed. Please check that the file you specified is "
+"a valid firmware file."
+msgstr ""
+"Uppackningen av miniprogrammet misslyckades. Kontrollera att filen du angav "
+"är en korrekt miniporgram-fil."
+
+#~ msgid ""
+#~ "Ensure you have access to the AppleUSBVideoSupport driver file. If not "
+#~ "disable firmware extraction, you can retry it later."
+#~ msgstr ""
+#~ "Säkerställ att du har tillgång till drivrutinen AppleUSBVideoSupport. Om "
+#~ "du inte har det så ska du inte aktivera extraheringen av miniprogrammet, "
+#~ "extraheringen kan göras vid ett senare tillfälle."
+
+#~ msgid "An input file name doesn't exist"
+#~ msgstr "Det finns ingen fil på den sökvägen"
+
+#~ msgid "Extract success. Enjoy iSigiht!."
+#~ msgstr "Uppackningen lyckades. Du kan nu använda iSight!"
+
+#~ msgid "Extract fail"
+#~ msgstr "Uppackningen misslyckades"
+
+#~ msgid ""
+#~ "Extract fail. This firmware does not support or the file which you chose "
+#~ "is not firmware."
+#~ msgstr ""
+#~ "Uppackningen misslyckades. Antingen är miniprogrammet är felaktigt eller "
+#~ "så är filen inte ett miniprogram."
